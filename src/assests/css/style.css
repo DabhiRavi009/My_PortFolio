@@ -1076,7 +1076,7 @@
   background-color: lightgray;
 }
 
-.dark-mode .container .header-container  .hamburger-container .hamburger i {
+.dark-mode .container .header-container .hamburger-container .hamburger i {
   color: white;
 }
 
@@ -1508,10 +1508,8 @@
   }
 
 
-  .footer_container {
-    .footer {
-      font-size: 1.3rem;
-    }
+  .footer_container .footer {
+    font-size: 1.3rem;
   }
 }
 
@@ -1873,7 +1871,386 @@
     font-size: 1rem;
   }
 
-
+  .footer_container .footer {
+    font-size: 1.3rem;
+  }
 }
 
-/* @media only screen and (min-width: 1025px) {} */
+@media only screen and (min-width: 1025px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .container .header-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-container .logo-container {
+    width: 40%;
+    height: auto;
+    margin-left: 0px;
+  }
+
+  .logo-container h1 {
+    white-space: nowrap;
+    font-size: 5rem;
+    font-weight: 400;
+    letter-spacing: 12px;
+  }
+
+  .header-container .toggle-container {
+    width: 40%;
+    height: auto;
+    margin: 0px;
+  }
+
+  .toggle-container .toggle {
+    width: 50px;
+    height: 50px;
+  }
+
+  .toggle i {
+    font-size: 3rem;
+  }
+
+  .header-container .hamburger-container {
+    display: none;
+  }
+
+  .container .navbar-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .navbar-container .outer-div {
+    width: 500px;
+    height: 120px;
+  }
+
+  .outer-div .inner-div {
+    width: 80px;
+    height: 60px;
+  }
+
+  .inner-div i {
+    font-size: 2rem;
+  }
+
+  .inner-div p {
+    font-size: 1.5rem;
+  }
+
+  .sidebar_container {
+    width: 100%;
+    margin: 20px;
+    height: auto;
+  }
+
+  .sidebar_container .profile_picture {
+    margin: 0px 0px 80px 120px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .profile_picture img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .sidebar_container .profile {
+    width: 100%;
+  }
+
+  .profile .heading {
+    padding: 100px 0 0 0;
+  }
+
+  .heading h1 {
+    letter-spacing: 1px;
+    font-size: 3rem;
+  }
+
+  .profile .social {
+    margin: 15px 0 0 110px;
+  }
+
+  .profile .contact {
+    width: 350px;
+    height: 260px;
+    margin: 20px 55px;
+  }
+
+  .contact .detail {
+    margin: 10px 0;
+    width: 250px;
+    height: 40px;
+  }
+
+  .detail .contact-icon {
+    width: 35px;
+    height: 30px;
+  }
+
+  .contact-icon i {
+    font-size: 1.8rem;
+  }
+
+  .contact .description {
+    width: 260px;
+    height: 40px;
+  }
+
+  .contact .description h4 {
+    font-size: 1.8rem;
+  }
+
+  .contact .description p {
+    font-size: 1.8rem;
+  }
+
+  .profile .download {
+    margin: 20px 100px;
+  }
+
+  .download .btn {
+    width: auto;
+    font-size: 2rem;
+    border-radius: 10px;
+    padding: 20px 15px;
+    height: auto;
+  }
+
+  .about_container {
+    margin-top: 130px;
+    padding: 0px;
+    height: auto;
+    min-height: 700px;
+  }
+
+  .about_container .head-1 {
+    padding: 20px 10px 20px 50px;
+    font-size: 3rem;
+  }
+
+  .about_container .technologies {
+    width: 100%;
+    height: auto;
+  }
+
+  .technologies .technology {
+    width: 45%;
+    height: auto;
+  }
+
+  .technology p {
+    font-size: 1.7rem;
+  }
+
+  .technology button {
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    padding: 15px 10px;
+    color: white;
+    font-size: 1.2rem;
+  }
+
+  .resume_container {
+    margin-top: 130px;
+    padding: 0px;
+    height: auto;
+    min-height: 700px;
+  }
+
+  .resume_container .head-1 {
+    padding: 20px 10px 20px 50px;
+    font-size: 3rem;
+  }
+
+  .resume_container .container .container-1 .educations .head-2 {
+    margin: 10px;
+    font-size: 3rem;
+  }
+
+  .resume_container .container .container-1 .educations .head-2 i {
+    padding: 0px 2px;
+    font-size: 3.5rem;
+  }
+
+  .resume_container .container .container-1 .educations .education .edu {
+    height: 100px;
+  }
+
+  .resume_container .container .container-1 .educations .education .edu .para-3 {
+    font-size: 1.5rem;
+  }
+
+  .resume_container .container .container-1 .educations .education .edu .para-3 {
+    font-size: 1.5rem;
+  }
+
+  .resume_container .container .container-1 .educations .education .edu .head-3 {
+    font-size: 1.8rem;
+  }
+
+  .resume_container .container .container-1 .educations .education .edu .head-4 {
+    font-size: 1.3rem;
+  }
+
+  .resume_container .container .container-1 .experiences .head-2 {
+    margin: 10px;
+    font-size: 3rem;
+  }
+
+  .resume_container .container .container-1 .experiences .head-2 i {
+    padding: 0px 2px;
+    font-size: 3.5rem;
+  }
+
+  .resume_container .container .container-1 .experiences .experience .exp {
+    height: 100px;
+  }
+
+  .resume_container .container .container-1 .experiences .experience .exp .para {
+    font-size: 1.3rem;
+  }
+
+  .resume_container .container .container-1 .experiences .experience .exp .description {
+    font-size: 1.5rem;
+  }
+
+  .resume_container .container .container-2 .frontend_container .head-2 {
+    font-size: 3rem;
+  }
+
+  .resume_container .container .container-2 .frontend_container .frontend .skills .skill .technology-name p {
+    font-size: 1.5rem;
+  }
+
+  .resume_container .container .container-2 .frontend_container .frontend .skills .skill .technology-percentage p {
+    font-size: 1.5rem;
+  }
+
+  .resume_container .container .container-2 .backend_container .head-2 {
+    font-size: 3rem;
+  }
+
+  .resume_container .container .container-2 .backend_container .backend .skills .skill .technology-name p {
+    font-size: 1.5rem;
+  }
+
+  .resume_container .container .container-2 .backend_container .backend .skills .skill .technology-percentage p {
+    font-size: 1.5rem;
+  }
+
+  .work_container {
+    margin-top: 130px;
+    padding: 0px;
+    height: auto;
+    min-height: 700px;
+  }
+
+  .work_container .head-1 {
+    padding: 20px 10px 20px 50px;
+    font-size: 3rem;
+  }
+
+  .work_container .portfolio-container .portfolio p {
+    font-size: 1.5rem;
+  }
+
+  .work_container .portfolio-container .portfolio h4 {
+    font-size: 1.8rem;
+  }
+
+  .Project_container {
+    margin-top: 170px;
+    padding: 0px;
+    height: auto;
+    min-height: 700px;
+  }
+
+  .contact_container {
+    margin-top: 130px;
+    padding: 0px;
+    height: auto;
+    min-height: 700px;
+  }
+
+  .contact_container .head-1 {
+    padding: 20px 10px 20px 50px;
+    font-size: 3rem;
+  }
+
+  .contact_container .container {
+    gap: 10px;
+  }
+
+  .container .content-section {
+    width: auto;
+    height: auto;
+    margin: 0px 40px;
+  }
+
+  .content-section .head-2 {
+    font-size: 3rem;
+    margin-top: 10px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+  }
+
+  .content-section .head-3 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+  }
+
+  .content-section .para {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+  }
+
+  .contact_container .form-container {
+    width: 80%;
+    height: auto;
+  }
+
+  .contact_container label {
+    font-size: 2rem;
+  }
+
+  .contact_container .btn {
+    width: 150px;
+    height: 50px;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  .contact_container .error-message {
+    font-size: 1.5rem;
+  }
+
+  .footer_container .footer {
+    font-size: 2rem;
+  }
+}
