@@ -889,12 +889,19 @@
 .work_container {
   margin-top: 130px;
   width: 100%;
-  height: auto;
-  min-height: 635px;
+  max-height: 700px;
   background-color: white;
   border-radius: 20px;
   border: none;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
+
+.work_container::-webkit-scrollbar {
+  display: none;
+}
+
 
 .work_container .head-1 {
   padding: 20px 0 20px 50px;
@@ -1100,8 +1107,6 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #fa5252;
 }
-
-
 
 @media only screen and (max-width: 768px) {
   .container {
@@ -1898,10 +1903,10 @@
   .header-container .logo-container {
     width: 40%;
     height: auto;
-    margin-left: 0px;
   }
 
   .logo-container h1 {
+    margin-left: 0px;
     white-space: nowrap;
     font-size: 5rem;
     font-weight: 400;
@@ -1939,8 +1944,8 @@
   }
 
   .navbar-container .outer-div {
-    width: 500px;
-    height: 120px;
+    width: 450px;
+    height: 100px;
   }
 
   .outer-div .inner-div {
@@ -2208,28 +2213,6 @@
     margin: 0px 40px;
   }
 
-  .content-section .head-2 {
-    font-size: 3rem;
-    margin-top: 10px;
-    word-spacing: 4px;
-    letter-spacing: 2px;
-  }
-
-  .content-section .head-3 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-    word-spacing: 4px;
-    letter-spacing: 2px;
-  }
-
-  .content-section .para {
-    font-size: 2rem;
-    font-weight: 400;
-    margin-bottom: 10px;
-    word-spacing: 3px;
-    letter-spacing: 1px;
-  }
-
   .contact_container .form-container {
     width: 80%;
     height: auto;
@@ -2237,13 +2220,6 @@
 
   .contact_container label {
     font-size: 2rem;
-  }
-
-  .contact_container .btn {
-    width: 150px;
-    height: 50px;
-    font-size: 2rem;
-    font-weight: 500;
   }
 
   .contact_container .error-message {

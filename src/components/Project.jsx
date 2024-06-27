@@ -18,7 +18,7 @@ export const Project = ({ project }) => {
         </div>
         <div className="right">
           <a
-            href="https://github.com/DabhiRavi009"
+            href="https://github.com/DabhiRavi009?tab=repositories"
             className="head-2"
             target="_blank"
             rel="noreferrer"
